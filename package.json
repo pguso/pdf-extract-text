@@ -1,0 +1,42 @@
+{
+  "name": "pdf-extract-text",
+  "version": "0.1.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "pdf-extract-text",
+    "triples": {}
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.4",
+    "@types/node": "^22.15.23",
+    "ava": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "ava": {
+    "timeout": "3m"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "scripts": {
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release && tsc",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "ava",
+    "universal": "napi universal",
+    "version": "napi version"
+  },
+  "packageManager": "yarn@4.9.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pguso/pdf-extract-napi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pguso/pdf-extract-text/issues"
+  },
+  "homepage": "https://github.com/pguso/pdf-extract-napi#readme"
+}
