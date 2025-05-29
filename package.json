@@ -1,6 +1,6 @@
 {
   "name": "pdf-extract-text",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -40,8 +40,8 @@
   },
   "homepage": "https://github.com/pguso/pdf-extract-napi#readme",
   "optionalDependencies": {
-    "pdf-extract-text-win32-x64-msvc": "0.1.1",
-    "pdf-extract-text-darwin-x64": "0.1.1",
-    "pdf-extract-text-linux-x64-gnu": "0.1.1"
+    "pdf-extract-text-win32-x64-msvc": "0.1.2",
+    "pdf-extract-text-darwin-x64": "0.1.2",
+    "pdf-extract-text-linux-x64-gnu": "0.1.2"
   }
 }

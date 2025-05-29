@@ -14,9 +14,9 @@ A fast, native Node.js module to extract and process text from PDF files using R
 ## Installation
 
 ```bash
-npm install pdf-text-extractor
+npm install pdf-extract-text
 # or
-yarn add pdf-text-extractor
+yarn add pdf-extract-text
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ yarn add pdf-text-extractor
 
 **JavaScript**
 ```javascript
-const { extractTextFromPdf } = require('pdf-text-extractor');
+const { extractTextFromPdf } = require('pdf-extract-text');
 
 async function main() {
   try {
@@ -41,7 +41,7 @@ main();
 
 **TypeScript**
 ```typescript
-import { extractTextFromPdf } from 'pdf-text-extractor';
+import { extractTextFromPdf } from 'pdf-extract-text';
 
 async function main() {
   try {
@@ -59,7 +59,7 @@ main();
 
 **JavaScript**
 ```javascript
-const { extractTextPages } = require('pdf-text-extractor');
+const { extractTextPages } = require('pdf-extract-text');
 
 async function extractPages() {
   try {
@@ -78,7 +78,7 @@ extractPages();
 ```
 **TypeScript**
 ```typescript
-import { extractTextPages, Page } from 'pdf-text-extractor';
+import { extractTextPages, Page } from 'pdf-extract-text';
 
 async function extractPages() {
   try {
@@ -100,7 +100,7 @@ extractPages();
 
 **JavaScript**
 ```javascript
-const { extractTextChunks } = require('pdf-text-extractor');
+const { extractTextChunks } = require('pdf-extract-text');
 
 async function chunkText() {
   try {
@@ -120,7 +120,7 @@ chunkText();
 
 **TypeScript**
 ```typescript
-import { extractTextChunks, TextChunk } from 'pdf-text-extractor';
+import { extractTextChunks, TextChunk } from 'pdf-extract-text';
 
 async function chunkText() {
   try {
