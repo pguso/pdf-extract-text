@@ -1,6 +1,6 @@
 # PDF Text Extractor
 
-A fast, native Node.js module to extract and process text from PDF files using Rust and N-API. Built with [Tokio](https://tokio.rs/), [`pdf-extract`](https://docs.rs/pdf-extract), and [`text-splitter`](https://crates.io/crates/text-splitter), this package provides efficient and easy-to-use async APIs to:
+A fast, native Node.js module to extract and process text from PDF files using Rust and N-API. Built with [Tokio](https://tokio.rs/), [`pdf-extract`](https://docs.rs/pdf-extract), and [`text-splitter`](https://crates.io/crates/text-splitter), this package provides efficient and easy-to-use async APIs.
 
 ## Features
 - High-performance native code (Rust)
